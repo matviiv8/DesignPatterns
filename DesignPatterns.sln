@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Facade", "Facade\Facade.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton", "Singleton\Singleton.csproj", "{BA07C789-D90C-4243-BC06-2050E033A783}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bridge", "Bridge\Bridge.csproj", "{1D494B8E-A431-4C88-9C78-464BABE53B3C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bridge", "Bridge\Bridge.csproj", "{1D494B8E-A431-4C88-9C78-464BABE53B3C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder", "Builder\Builder.csproj", "{8C0E9E9D-24DB-4362-8D70-444DCF65B561}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{1D494B8E-A431-4C88-9C78-464BABE53B3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1D494B8E-A431-4C88-9C78-464BABE53B3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1D494B8E-A431-4C88-9C78-464BABE53B3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C0E9E9D-24DB-4362-8D70-444DCF65B561}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C0E9E9D-24DB-4362-8D70-444DCF65B561}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C0E9E9D-24DB-4362-8D70-444DCF65B561}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C0E9E9D-24DB-4362-8D70-444DCF65B561}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
