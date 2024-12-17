@@ -29,7 +29,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Structural", "Structural", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prototype", "Prototype\Prototype.csproj", "{449DD28E-3D92-4982-8D1B-F6F9892EA71D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mediator", "Mediator\Mediator.csproj", "{08762FBB-D326-4AA9-AD25-97BE70FF7459}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mediator", "Mediator\Mediator.csproj", "{08762FBB-D326-4AA9-AD25-97BE70FF7459}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Composite", "Composite\Composite.csproj", "{CD37D35C-B6E6-4E07-958F-8FA28B74F7FD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +83,10 @@ Global
 		{08762FBB-D326-4AA9-AD25-97BE70FF7459}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{08762FBB-D326-4AA9-AD25-97BE70FF7459}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{08762FBB-D326-4AA9-AD25-97BE70FF7459}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD37D35C-B6E6-4E07-958F-8FA28B74F7FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD37D35C-B6E6-4E07-958F-8FA28B74F7FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD37D35C-B6E6-4E07-958F-8FA28B74F7FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD37D35C-B6E6-4E07-958F-8FA28B74F7FD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -97,6 +103,7 @@ Global
 		{80943C88-20BC-4B7B-87D2-68DA83A52089} = {2EA38069-D805-4D38-936D-0680B87E61B2}
 		{449DD28E-3D92-4982-8D1B-F6F9892EA71D} = {52B4AE64-99B3-467E-8871-DB6E30763544}
 		{08762FBB-D326-4AA9-AD25-97BE70FF7459} = {2EA38069-D805-4D38-936D-0680B87E61B2}
+		{CD37D35C-B6E6-4E07-958F-8FA28B74F7FD} = {E632850D-0FDE-411D-9244-6CCCE5718688}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0BD54F8B-FF77-45ED-ABD0-FF0D28D2CA7E}
