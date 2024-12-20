@@ -35,7 +35,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Composite", "Composite\Comp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Command", "Command\Command.csproj", "{DE995D4D-1EEC-439E-9131-FA856A094634}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iterator", "Iterator\Iterator.csproj", "{325BBC6D-443A-473E-8840-DCA7179266DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Iterator", "Iterator\Iterator.csproj", "{325BBC6D-443A-473E-8840-DCA7179266DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactory", "AbstractFactory\AbstractFactory.csproj", "{B6A2A33E-C576-477B-AA35-568966092075}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -99,6 +101,10 @@ Global
 		{325BBC6D-443A-473E-8840-DCA7179266DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{325BBC6D-443A-473E-8840-DCA7179266DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{325BBC6D-443A-473E-8840-DCA7179266DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6A2A33E-C576-477B-AA35-568966092075}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6A2A33E-C576-477B-AA35-568966092075}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6A2A33E-C576-477B-AA35-568966092075}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6A2A33E-C576-477B-AA35-568966092075}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -118,6 +124,7 @@ Global
 		{CD37D35C-B6E6-4E07-958F-8FA28B74F7FD} = {E632850D-0FDE-411D-9244-6CCCE5718688}
 		{DE995D4D-1EEC-439E-9131-FA856A094634} = {2EA38069-D805-4D38-936D-0680B87E61B2}
 		{325BBC6D-443A-473E-8840-DCA7179266DD} = {2EA38069-D805-4D38-936D-0680B87E61B2}
+		{B6A2A33E-C576-477B-AA35-568966092075} = {52B4AE64-99B3-467E-8871-DB6E30763544}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0BD54F8B-FF77-45ED-ABD0-FF0D28D2CA7E}
